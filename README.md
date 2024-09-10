@@ -1,4 +1,4 @@
-# LMQuestAI
+# LMQuestAI :robot:
 
 LMQuestAI é uma API Flask que utiliza técnicas de Inteligência Artificial para responder perguntas com base em um documento de texto. O sistema usa TF-IDF e similaridade de cosseno para identificar e fornecer a resposta mais relevante a partir de um conjunto de sentenças.
 
