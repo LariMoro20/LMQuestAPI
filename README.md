@@ -2,13 +2,13 @@
 
 LMQuestAI é uma API Flask que utiliza técnicas de Inteligência Artificial para responder perguntas com base em um documento de texto. O sistema usa TF-IDF e similaridade de cosseno para identificar e fornecer a resposta mais relevante a partir de um conjunto de sentenças.
 
-## Funcionalidades
+## :clipboard: Funcionalidades
 
 - Carrega um documento de texto (`internet.txt`) e divide o conteúdo em sentenças.
 - Gera uma representação TF-IDF das sentenças.
 - Calcula a similaridade de cosseno entre uma pergunta e as sentenças do documento para determinar a resposta mais relevante.
 
-## Pré-requisitos
+## :book: Pré-requisitos
 
 Para rodar este projeto localmente, você precisará ter:
 
@@ -20,7 +20,7 @@ Para rodar este projeto localmente, você precisará ter:
   - `numpy`: para operações matemáticas
   - `re`: para manipulação de expressões regulares (integrada ao Python)
 
-### Instalação de dependências
+### :electric_plug: Instalação de dependências
 
 Use o `pip` para instalar as bibliotecas necessárias:
 
@@ -28,7 +28,7 @@ Use o `pip` para instalar as bibliotecas necessárias:
 pip install Flask scikit-learn numpy
 ```
 
-## Como executar o projeto
+## :gear: Como executar o projeto
 
 1. Clone este repositório.
 
@@ -42,7 +42,7 @@ python app.py
 
 4. A API estará disponível localmente em `http://127.0.0.1:5000`.
 
-## Como usar
+## :computer: Como usar
 
 Para fazer uma pergunta à API, você deve enviar uma solicitação POST para o endpoint `/do_answer` com um corpo JSON contendo a pergunta. Exemplo:
 
@@ -68,12 +68,12 @@ Se a similaridade da pergunta com as sentenças não for suficientemente alta, a
 }
 ```
 
-## Personalização
+## :black_nib: Personalização
 
 - **Arquivo de texto**: Para utilizar seu próprio documento, substitua o conteúdo do arquivo `internet.txt`.
 - **Limite de similaridade**: O valor padrão de `threshold` é 0.2. Você pode ajustar esse valor na função `answer_question` para alterar a precisão das respostas.
 
-## Estrutura do projeto
+## :file_folder: Estrutura do projeto
 
 ```bash
 .
@@ -82,12 +82,12 @@ Se a similaridade da pergunta com as sentenças não for suficientemente alta, a
 └── README.md            # Arquivo de documentação
 ```
 
-## Tecnologias usadas
+## :hammer_and_wrench: Tecnologias usadas
 
 - Flask - para construção da API
 - Scikit-learn - para a implementação do TF-IDF e cálculo da similaridade de cosseno
 - NumPy - para operações matemáticas
 
-## Licença
+## :page_with_curl: Licença
 
 Este projeto é licenciado sob a [MIT License](LICENSE).
