@@ -88,6 +88,8 @@ Se a similaridade da pergunta com as sentenças não for suficientemente alta, a
 - Scikit-learn - para a implementação do TF-IDF e cálculo da similaridade de cosseno
 - NumPy - para operações matemáticas
 
-## :page_with_curl: Licença
+## :clipboard: Licença
 
-Este projeto é licenciado sob a [MIT License](LICENSE).
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+Made with :heart: by [Larissa Santos](https://larissa-santos.vercel.app/)
